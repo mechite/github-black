@@ -19,18 +19,28 @@ body,
     --bgColor-default: #000000;
     --bgColor-muted: #090909;
     --bgColor-emphasis: #111111;
-
+    
     --fgColor-default: #e6e6e6;
     --fgColor-muted: #9a9a9a;
-    --fgColor-accent: #58a6ff;
-
+    --fgColor-accent: #3b82f6;
+    --fgColor-attention: #705f19;
+    --fgColor-success: #4ade80;
+  
     /* borders + dividers */
     --borderColor-default: #111111;
     --borderColor-muted: #0f0f0f;
+    --borderColor-attention: #705f19;
+    --borderColor-success: #166534;
+    
+    /* underline */
+    --underlineNav-borderColor-active: #705f19;
+    --underlineNav-borderColor-hover: #b39414;
 
     /* inputs, panels, code blocks */
     --bgColor-inset: #000000;
     --bgColor-neutral-muted: #090909;
+    --bgColor-success-muted: #022c22;
+    --bgColor-success-emphasis: #022c22;
 
     /* buttons */
     --button-default-bgColor-rest: #090909;
